@@ -8,6 +8,7 @@ end
 gem 'devise'
 
 gem 'react-rails'
+gem 'webpacker'
 
 gem 'launchy'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
