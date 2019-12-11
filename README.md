@@ -27,9 +27,6 @@ Fork and clone this repository.<br>
 Install the following in command line:
 ```bash
 > bundle install
-> rails webpacker:install
-> rails webpacker:install:react
-> rails generate react:install
 > bin/rails db:create
 > bin/rails db:migrate
 
