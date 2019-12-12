@@ -99,6 +99,9 @@ jobs:
           name: Run Tests
           command: |
             bundle exec rspec
+      - run:
+          name: Webpacker
+          command: NODE_ENV=test bundle exec rails webpacker:compile
 
 workflows:
   version: 2

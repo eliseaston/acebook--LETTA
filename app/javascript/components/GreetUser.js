@@ -7,7 +7,7 @@ class GreetUser extends React.Component {
       <div>
       <h1>Hello {this.props.name}, </h1>
 
-      <h3>Wow! this is your first react compnent!</h3>
+      <h3>Wow! this is your first react component!</h3>
       </div>
     );
   }

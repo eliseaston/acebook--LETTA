@@ -11,6 +11,10 @@
     "react_ujs": "^2.6.0"
   },
   "devDependencies": {
+    "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
+    "wbp": "npm run webpack --config webpack.config.vendor.js"
+
+
   }
 }
