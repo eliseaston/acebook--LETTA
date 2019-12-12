@@ -76,6 +76,8 @@ development:
     watch_options:
       ignored: '**/node_modules/**'
 
+steps:
+  run: NODE_ENV=test bundle exec rails webpacker:compile
 
 test:
   <<: *default
