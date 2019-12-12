@@ -74,7 +74,6 @@ jobs:
           name: Bundle Install
           command: |
             bundle check || bundle install
-
       # - restore_cache:
       #     keys:
       #       - rails-demo-yarn-{{ checksum "yarn.lock" }}
@@ -100,9 +99,6 @@ jobs:
           name: Run Tests
           command: |
             bundle exec rspec
-      - run:
-          name: Webpacker
-          command: NODE_ENV=test bundle exec rails webpacker:compile
 
 workflows:
   version: 2
