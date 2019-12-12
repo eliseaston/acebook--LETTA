@@ -1,3 +1,4 @@
+<html>
 <%= react_component 'GreetUser', name: current_user.email %>
 
 <% @posts.each do |post| %>
@@ -29,3 +30,4 @@
 <% end %>
 <br>
 <center><%= button_to "New post", new_post_path, :method => :get %></center>
+</html>
