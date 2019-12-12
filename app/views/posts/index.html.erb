@@ -1,3 +1,6 @@
+<%= react_component 'GreetUser', name: 'Liat' %>
+
+
 <% @posts.each do |post| %>
 <div class="container" id='<%= post.id %>'>
   <p><%= (post.created_at).strftime("%l:%M%P %-d-%B-%Y") %></p>
